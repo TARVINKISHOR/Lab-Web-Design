@@ -62,7 +62,5 @@ In this exercise, you will create a webpage that demonstrates the following:
 - **Semantic HTML**
 - **Forms and Tables**
 
----
 
-## 📁 Repository Structure
 
