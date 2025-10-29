@@ -109,9 +109,3 @@ After completing both labs, you will be able to:
 
 - **HTML5**
 
----
-
-## 📁 Repository Structure
-|--Lab1
-|--Lab2
-|--README.md
