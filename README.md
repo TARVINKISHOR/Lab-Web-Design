@@ -126,7 +126,7 @@ By the end of this lab, you will have a basic understanding of how to:
 
 ---
 
-## 3.7 Lab Exercise 3
+## 3.2 Lab Exercise 3
 
 A **web contact form** is an essential feature of modern websites, allowing users to submit inquiries, feedback, or requests easily. In this exercise, you will build a **simple contact form** using HTML that integrates an **inline calculator** to enhance user interactivity.
 
