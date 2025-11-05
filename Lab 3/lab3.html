@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+</head>
+<body>
+    <div id="header" style="background-color: lightblue; height: 100px;">
+        <h1 style="margin-top: 0%;">Interactive Contact Form with an Inline Calculator</h1> 
+        <span>We always welcome you!</span>
+    </div>
+    
+
+    <div id="content" style="background-color: lightgoldenrodyellow; height: 600px; font-size: 24px; padding-top: 5%;">
+        <form action="">
+            <div>
+               Enter your email: <input type="email" name="useremail" id="emailuser"> 
+            </div>
+            <br>
+            <div>
+                Enter your preferred contact date: <input type="date" name="tarikh" id="tarikh"> 
+            </div>
+            <br>
+           <div>
+            Select your satisfaction level: <input type="range" name="satisfactionlevel" id="range" min="1" max="5">
+           </div>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+        <div style="font-size: 24px; padding-top: 10%;">
+            <form oninput="sum.value = Number(num1.value) + Number(num2.value)">
+             <div>
+                Please enter first number <input type="number" id="num1" name="num1" step="1">
+             </div>
+            <br>
+            Please enter second number <input type="number" id="num2" name="num2">
+            <br>=
+            <output name="sum" for="num1 num2"></output>   
+            </form>
+        </div>
+    </div>
+
+    <div id="footer" style="background-color: lightgray; height: 10em;">
+        <h3 style="margin-top: 0%;">Contact Us</h3>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</p>
+        <p>Phone: <a href="tel:+60106665454">+60106665454</p>
+        <p>Address: 123 Kuala Terengganu, Terengganu,Malaysia</p>
+        <p>&copy; 2025 KISHOR A/L MOHAN. All rights reserved.</p>
+    </div>
+</body>
+</html>
