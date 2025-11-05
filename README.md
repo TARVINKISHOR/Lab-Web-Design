@@ -104,6 +104,41 @@ After completing both labs, you will be able to:
 - Apply semantic HTML for better readability and accessibility.
 
 ---
+# Lab Module 3 — HTML5
+
+## Overview
+
+This lab introduces more advanced concepts in **HTML and HTML5**. You will learn about the difference between **block** and **inline** elements and how to use them to structure web content effectively.
+
+We will also explore the `<div>` tag to organize and style web pages better. Additionally, you will learn about **HTML entities**, which allow you to include special characters in your web content. The lab will cover **HTML5 form elements** that provide enhanced functionality for web forms, including the use of the `<output>` element to display the results of calculations or actions directly on the page.
+
+---
+
+## 3.1 Objectives
+
+By the end of this lab, you will have a basic understanding of how to:
+
+1. Differentiate between block and inline elements.  
+2. Use `<div>` for better web page organization.  
+3. Apply HTML entities to display special characters.  
+4. Implement various HTML5 form elements.  
+5. Utilize the `<output>` element to display dynamic results.
+
+---
+
+## 3.7 Lab Exercise 3
+
+A **web contact form** is an essential feature of modern websites, allowing users to submit inquiries, feedback, or requests easily. In this exercise, you will build a **simple contact form** using HTML that integrates an **inline calculator** to enhance user interactivity.
+
+This exercise combines the key concepts from Lab 3, including:
+
+- **Block and inline elements**  
+- **`<div>`** for organizing content  
+- **HTML entities**  
+- **HTML5 form elements**  
+- **`<output>`** element  
+
+This project will help reinforce your understanding of each topic in a practical context.
 
 ## 🛠️ Technologies Used
 
