@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+
+    <style type="text/css">
+        /*Header style*/
+        #Header {
+            background-color: rgb(0, 200, 250);
+            text-decoration: none;
+            text-align: center;
+            text-decoration: underline;
+            padding: 15px;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+
+        /*Article style*/
+        #article {
+            text-align: center;
+            background-color: aqua;
+            height: 50px;
+            padding-top: 25px;
+        }
+
+        /*Navigation style*/
+        #Navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-decoration: underline;
+            margin-bottom: 0;
+        }
+
+        /*a link style*/
+        a:link,
+        a:visited {
+            display: block;
+            font-weight: bold;
+            color: black;
+            background-color: beige;
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        a:link{
+            color: #FF0000; /* Unvisited Link*/
+        }
+        a:visited{
+            color: #00FF00;  /* Visited Link - Not supported in Chrome/Edge*/
+        }
+        a:hover{
+            color:#FF00FF;  /* Mouse Over Link*/
+        }
+        a:active{
+            color: #0000FF;  /* Selected Link*/
+        }
+
+        /* a link hover and active*/
+        a:hover,
+        a:active {
+            background-color: #7A991A;
+        }
+
+        /*Section style*/
+        #Section {
+            background-color: gray;
+            margin: 0;
+            margin-top: 0;
+            width: 100%;
+            height: 150%;
+            margin-left: 0;
+
+        }
+
+        /*Section 2 style*/
+        #sect2{
+            text-align: center;
+            background-color: gray;
+            margin-top: 0;
+            height: 500px;
+        }
+
+        /*Form align to center*/
+        #Form {
+            text-align: center;
+        }
+
+        /* Top spacing */
+        #div1 {
+            padding: 15px;
+        }
+
+        /* Bottom spacing */
+        #div2 {
+            padding-bottom: 15px;
+        }
+
+        /* Bottom spacing */
+        #div3 {
+            padding-bottom: 15px;
+        }
+
+        /* Bottom spacing */
+        #div4 {
+            padding-bottom: 15px;
+        }
+
+        /* Top spacing */
+        #div4_1 {
+            padding-top: 5px;
+        }
+
+        /* Hover effect for name*/
+        #name:hover {
+            background-color: antiquewhite;
+        }
+
+         /* Hover effect for mail*/
+        #mail:hover {
+            background-color: antiquewhite;
+        }
+
+        /*Sumbit style*/
+        #submit {
+            text-align: center;
+            margin: auto;
+            width: 60px;
+        }
+
+         /* Hover effect for submit*/
+        #submit:hover {
+            background-color: rgb(4, 241, 4);
+        }
+
+        /*Hide the video until the button is pressed*/
+        #show:checked~.video {
+            display: block;
+        }
+
+        /* Style for video*/
+        .video {
+            display: none;
+            margin-top: 50px;
+            margin-left: 650px;
+            width: 100px;
+            background-color: aqua;
+        }
+
+        /*Style for video button*/
+        #vd1 {
+            background: #222;
+            color: white;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /*Style for video button hover*/
+        #vd1:hover {
+            background-color: red;
+        }
+
+        /*Style for footer*/
+        #footer {
+            margin-top: 0;
+            background-color: rgb(126, 188, 243);
+            text-align: center;
+            text-decoration: overline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="Header">
+        <h1>Personal Information</h1>
+    </header>
+
+    <article id="article">
+        <h3 style="margin: 0;">This website is for gather your personal information!</h3>
+    </article>
+
+    <ul id="Navigation">
+        <li><a href="lab4.html">Home Page</a></li>
+        <li><a href="#contact">Contact us</a></li>
+        <li><a href="#about">About us</a></li>
+    </ul>
+
+
+
+    <section id="Section">
+        <form action="" id="Form">
+            <div id="div1">
+                Name: <input type="text" name="name" id="name">
+            </div>
+            <div id="div2">
+                Email: <input type="email" name="mail" id="mail">
+            </div>
+            <div id="div3">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div id="div4">
+                <label for="hobbies">Favourite Hobbies:</label>
+                <div id="div4_1">
+                    <input type="checkbox" name="hobbies" id="coding" value="coding">
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" name="hobbies" id="badminton" value="badminton">
+                    <label for="badminton">Badminton</label>
+                    <input type="checkbox" name="hobbies" id="soccer" value="soccer">
+                    <label for="soccer">Soccer</label>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+
+        </form>
+    </section>
+
+    <section id="sect2">
+        <div>
+            <p style="margin-top: 0; padding-top: 30px;">Click the button for a surprise</p>
+
+            <input type="checkbox" id="show" hidden>
+            <label for="show" id="vd1">•ᴗ•</label>
+            <div class="video">
+                <video autoplay loop controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div>
+        <footer id="footer">
+            &copy; Hakmilik KISHOR A/L MOHAN
+            <address>
+                Hubungi kami di <a href="mailto:s75142@ocean.umt.edu.my">Email saya</a>
+            </address>
+        </footer>
+    </div>
+
+</body>
+
+</html>
