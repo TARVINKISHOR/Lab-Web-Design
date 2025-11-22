@@ -144,3 +144,114 @@ This project will help reinforce your understanding of each topic in a practical
 
 - **HTML5**
 
+---
+
+# Lab Module 4 – Cascading Style Sheets (CSS) Part 1
+
+This lab explores how HTML5 and CSS work together to create structured and visually appealing webpages. While CSS is the main focus, you will also continue building your understanding of key HTML5 concepts such as semantic elements and embedded media.
+
+---
+
+## 4.1 Objectives
+
+By the end of this lab, students will be able to:
+
+1. Use semantic HTML5 elements to create a well-structured and meaningful webpage layout.
+2. Embed video content using the `<video>` tag.
+3. Demonstrate an understanding of CSS syntax, including selectors, properties, and values.
+4. Differentiate between **ID** and **class** selectors and apply them correctly.
+5. Build a functional and visually appealing navigation bar using CSS.
+6. Use CSS properties to enhance text presentation (font styling, alignment, decoration).
+7. Recognize and style different link states (`:hover`, `:visited`, `:active`) to improve user experience.
+
+---
+
+## 4.9 Lab Exercise 4
+
+In this exercise, you will build a functional webpage that integrates various HTML5 and CSS concepts. You will use semantic HTML elements, embed media, and apply CSS styling to create a visually appealing webpage design.
+
+This lab reinforces modern web development practices and helps you develop skills to create professional, user-friendly webpages.
+
+---
+
+## 4.9.1 Building a Responsive Webpage with HTML5 and CSS
+
+### Instructions
+
+---
+
+### 1. Create the HTML File
+
+- Name the file **`lab4.html`**.
+
+---
+
+### 2. Define the Structure
+
+Use semantic HTML5 elements such as:
+
+- `<header>`
+- `<nav>`
+- `<section>`
+- `<article>`
+- `<footer>`
+
+Additional tasks:
+
+- Create a navigation bar using an unordered list `<ul>`.
+- Include links to different sections of the page.
+
+---
+
+### 3. Insert Media
+
+- Embed a video using the `<video>` tag.
+- Add a caption or short description below the video.
+- Ensure the video is sized and positioned properly within your layout.
+
+---
+
+### 4. Apply CSS Styling
+
+Use both **internal CSS** and **external CSS**.
+
+You must:
+
+- Apply text decoration to headings and links (`underline`, `overline`, `line-through`, etc.).
+- Style link states:
+  - `:hover`
+  - `:visited`
+  - `:active`
+- Create a clean, responsive layout using CSS properties.
+
+---
+
+### 5. Add Interactive Elements
+
+Add a form on your webpage with the following input fields:
+
+- Name (Text input)
+- Email (Text input)
+- Gender (Radio buttons)
+- Favourite Hobbies (Checkboxes)
+- Submit Button
+
+Then:
+
+- Style the form and its elements using CSS to improve appearance and usability.
+
+---
+
+## Final Output
+
+After completing this lab, you should have:
+
+- A fully structured webpage using semantic HTML
+- An embedded and properly styled video
+- A navigation bar styled with CSS
+- Styled text and link states
+- A clean and user-friendly form
+- A complete example of a responsive HTML5 + CSS webpage
+
+---
+
