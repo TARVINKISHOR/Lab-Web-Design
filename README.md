@@ -255,3 +255,162 @@ After completing this lab, you should have:
 
 ---
 
+# CSF3133 Web-Based Interface Design - Lab Module 5 Cascading Style Sheets (CSS) Part 2
+
+## Lab Overview
+
+This lab module covers fundamental CSS styling techniques and their implementation in web design. The exercises focus on different methods of applying CSS and creating common web components.
+
+---
+
+## Topics Covered
+
+### 5.3 Inline CSS
+Learn how to apply CSS styles directly within HTML elements using the `style` attribute.
+
+**Example:**
+```html
+<p style="color: blue; font-size: 16px;">This is inline CSS</p>
+```
+
+---
+
+### 5.4 Internal CSS
+Implement CSS styles within the `<style>` tag in the HTML document's `<head>` section.
+
+**Example:**
+```html
+<head>
+  <style>
+    p {
+      color: blue;
+      font-size: 16px;
+    }
+  </style>
+</head>
+```
+
+---
+
+### 5.5 External CSS
+Link external CSS files to HTML documents for better organization and reusability.
+
+**Example:**
+```html
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+---
+
+### 5.6 Link
+Understanding how to properly link CSS files and other resources to HTML documents.
+
+---
+
+### 5.7 Background Image
+Apply and style background images using CSS properties.
+
+**Properties covered:**
+- `background-image`
+- `background-size`
+- `background-position`
+- `background-repeat`
+
+---
+
+### 5.8 CSS Table
+Style HTML tables using CSS for improved visual presentation.
+
+**Common properties:**
+- `border`
+- `border-collapse`
+- `padding`
+- `text-align`
+- `background-color`
+
+**Example:**
+```css
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+```
+
+---
+
+### 5.9 Navigation Bar
+Create responsive and styled navigation bars using HTML and CSS.
+
+**Components:**
+1. Horizontal navigation menu
+2. Styled links with hover effects
+
+**Example structure:**
+```html
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+
+---
+
+## Lab Exercise
+
+The lab includes practical exercises that combine HTML and CSS to create functional web components. Students are required to:
+
+1. Write HTML structure
+2. Apply CSS styling using different methods
+3. Create working examples of tables and navigation bars
+4. Generate output that matches the expected design
+
+---
+
+## Files Structure
+
+```
+Lab5/
+├── umt.html          # Main HTML file
+├── umt.css          # External CSS file
+├── images/            # Folder for background images
+```
+
+---
+
+## Learning Objectives
+
+By completing this lab, students will be able to:
+
+- Understand the three methods of applying CSS (Inline, Internal, External)
+- Create and style HTML tables effectively
+- Design navigation bars with proper styling
+- Use background images in web layouts
+- Apply CSS best practices for maintainable code
+
+---
+
+## Notes
+
+- Always validate your HTML and CSS code
+- Test your designs across different browsers
+- Keep CSS organized and well-commented
+- Use external CSS for larger projects
+- Maintain consistent naming conventions
+
+---
