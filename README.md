@@ -255,7 +255,7 @@ After completing this lab, you should have:
 
 ---
 
-# CSF3133 Web-Based Interface Design - Lab Module 5 Cascading Style Sheets (CSS) Part 2
+# Lab Module 5 Cascading Style Sheets (CSS) Part 2
 
 ## Lab Overview
 
