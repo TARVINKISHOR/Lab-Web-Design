@@ -414,3 +414,132 @@ By completing this lab, students will be able to:
 - Maintain consistent naming conventions
 
 ---
+# Lab 6 – Introduction to JavaScript & Quiz Application
+
+This lab covers the fundamentals of **JavaScript** and guides you to create a **dynamic quiz application**.  
+By completing this lab, students will understand how to use JavaScript to add interactivity to web pages and practice building a small project.
+
+---
+
+## 6.1 Introduction to JavaScript
+
+JavaScript is a versatile programming language widely used to create **dynamic** and **interactive** content on websites. Along with **HTML** and **CSS**, it forms the core technologies of modern web development, enabling developers to build engaging and responsive user experiences.
+
+### 🌟 Key Features of JavaScript
+
+1. **Client-Side Execution**  
+   Runs directly in the user's web browser without server interaction, allowing **real-time updates** and **interactive content**.
+
+2. **Dynamic and Interactive Content**  
+   JavaScript can:
+   - Update webpage content instantly  
+   - Validate form input  
+   - Create animations  
+   - Control multimedia elements  
+   —all **without reloading the page**.
+
+3. **Cross-Platform Compatibility**  
+   Works across all major browsers: Chrome, Firefox, Edge, Safari, etc.
+
+4. **Extensibility**  
+   Can be extended using:
+   - **Libraries** (e.g., jQuery)  
+   - **Frameworks** (e.g., React, Angular, Vue.js)  
+
+---
+
+### 🛠️ Basic Uses of JavaScript
+
+1. **Event Handling** – Responding to user actions (clicks, keystrokes, mouse movements).  
+2. **Manipulating HTML and CSS** – Dynamically changing structure, content, or style of a webpage.  
+3. **Form Validation** – Ensuring input accuracy before submission.  
+4. **Creating Animations** – Enhancing visual appeal with smooth transitions and effects.  
+
+---
+
+### 📝 Using JavaScript in HTML
+
+Insert JavaScript between `<script>` and `</script>` tags:
+
+```html
+<script>
+  // Your JavaScript code here
+</script>
+# 📘 Quiz Application – Lab Exercise 6
+
+A simple, interactive quiz web application built using **HTML**, **CSS**, and **JavaScript**.  
+This project demonstrates essential web development skills such as DOM manipulation, timers, styling, and dynamic question rendering.
+
+---
+
+## 🎯 Features
+
+- ✔️ Multiple-choice questions  
+- ✔️ Countdown timer per question  
+- ✔️ Randomized question order  
+- ✔️ Instant feedback (Correct/Incorrect)  
+- ✔️ Final score display  
+- ✔️ Clean and responsive interface  
+
+---
+
+## 🧩 Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+---
+
+## 🚀 How to Run
+
+1. Download the project folder.
+2. Ensure it contains:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+3. Open **index.html** in your browser.
+4. Begin the quiz and follow the prompts.
+5. View your final score at the end.
+
+---
+
+## 🧠 JavaScript Functions Overview
+
+### `startQuiz()`
+Initializes quiz, shuffles questions, displays the first question, starts timer.
+
+### `shuffleQuestions()`
+Randomizes the array of quiz questions.
+
+### `startTimer()`
+Starts countdown timer for each question.
+
+### `displayQuestion()`
+Loads current question and its options on screen.
+
+### `checkAnswer()`
+Checks user's selected answer and updates score.
+
+### `nextQuestion()`
+Loads the next question and restarts timer.
+
+---
+
+## 📦 Submission Instructions
+
+- Ensure the project includes:
+  - `index.html`
+  - `style.css`
+  - `script.js`
+- Zip the project folder.
+- Submit the **.zip file** as required.
+
+---
+
+## 📝 License
+
+This project is for educational use under **Lab Exercise 6**.  
+You may modify or extend it for learning purposes.
+
+
