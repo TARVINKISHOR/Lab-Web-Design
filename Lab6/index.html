@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Quiz Application</h1>
+        <p>Test your knowledge with these questions!</p>
+    </header>
+
+    <main>
+        <div id="timer-container">
+            <span>Time Left: </span>
+            <span id="timer">20</span>
+            <span> seconds</span>
+        </div>
+
+        <section id="quiz-section">
+            <h2 id="question-text">Question will appear here</h2>
+            <div id="answer-options">
+                <!-- Answer options will be dynamically generated here -->
+            </div>
+        </section>
+
+        <section id="feedback-section">
+            <p id="feedback-message"></p>
+        </section>
+
+        <div id="controls">
+            <button id="submit-answer">Submit Answer</button>
+            <button id="next-question" style="display: none;">Next Question</button>
+        </div>
+    </main>
+
+    <footer>
+        <p id="final-score" style="display: none;">Your final score: 0</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
