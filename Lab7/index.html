@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishor Mohan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+<!-- Side Navigation -->
+<div class="sidenav">
+    <a href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="#slideshow"><i class="fas fa-images"></i><span>Gallery</span></a>
+    <a href="#profile"><i class="fas fa-user"></i><span>Profile</span></a>
+    <a href="#progress"><i class="fas fa-chart-line"></i><span>Skills</span></a>
+    <a href="#faq"><i class="fas fa-question-circle"></i><span>FAQ</span></a>
+</div>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Creative Front-End Developer</p>
+            <a href="#profile" class="cta-button">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Login Form -->
+    <form class="login-form" id="loginForm">
+        <h3>Login</h3>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <p id="loginMessage" style="margin-top: 10px; color: green; display: none; text-align: center;"></p>
+    </form>
+</section>
+
+<!-- Slideshow Section -->
+<section id="slideshow" class="slideshow-section">
+    <h2>Gallery</h2>
+    <div class="slideshow">
+        <img class="slide" src="Images/slide1.jpg" alt="Gallery 1">
+        <img class="slide" src="Images/slide2.jpg" alt="Gallery 2">
+        <img class="slide" src="Images/slide3.jpg" alt="Gallery 3">
+    </div>
+    <div class="slide-indicators">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</section>
+
+<!-- Profile Card -->
+<section id="profile" class="profile-section">
+    <div class="profile-card">
+        <img src="Images/me.png" alt="Profile">
+        <h2>Kishor Mohan</h2>
+        <p>Web Designer & JavaScript Enthusiast</p>
+        <div class="socials">
+            <a href="https://x.com/kishormohan5" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/kishor-mohan-963575368/?originalSubdomain=my" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/kishormohan85/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Progress -->
+<section id="progress" class="progress-section">
+    <h2>My Skills</h2>
+    
+    <div class="skill">
+        <div class="skill-name">
+            <span>HTML & CSS</span>
+            <span class="skill-percent">90%</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" data-progress="90">0%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span>JavaScript</span>
+            <span class="skill-percent">85%</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" data-progress="85">0%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span>Java</span>
+            <span class="skill-percent">75%</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" data-progress="75">0%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span>Responsive Design</span>
+            <span class="skill-percent">95%</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" data-progress="95">0%</div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+        <button class="collapsible">What services do you offer?</button>
+        <div class="content">
+            <p>I design responsive and interactive websites tailored to your needs. My services include front-end development, UI/UX design, and website optimization for performance and SEO.</p>
+        </div>
+
+        <button class="collapsible">What tools do you use?</button>
+        <div class="content">
+            <p>I work with modern web technologies including HTML5, CSS3, JavaScript (ES6+), and Java. I'm also experienced with frameworks and libraries like React, and design tools like Figma.</p>
+        </div>
+
+        <button class="collapsible">How can I contact you?</button>
+        <div class="content">
+            <p>You can reach me through my social media profiles linked in my profile section, or send me a message through the contact form. I typically respond within 24 hours.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

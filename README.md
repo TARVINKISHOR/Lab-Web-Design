@@ -144,3 +144,402 @@ This project will help reinforce your understanding of each topic in a practical
 
 - **HTML5**
 
+---
+
+# Lab Module 4 – Cascading Style Sheets (CSS) Part 1
+
+This lab explores how HTML5 and CSS work together to create structured and visually appealing webpages. While CSS is the main focus, you will also continue building your understanding of key HTML5 concepts such as semantic elements and embedded media.
+
+---
+
+## 4.1 Objectives
+
+By the end of this lab, students will be able to:
+
+1. Use semantic HTML5 elements to create a well-structured and meaningful webpage layout.
+2. Embed video content using the `<video>` tag.
+3. Demonstrate an understanding of CSS syntax, including selectors, properties, and values.
+4. Differentiate between **ID** and **class** selectors and apply them correctly.
+5. Build a functional and visually appealing navigation bar using CSS.
+6. Use CSS properties to enhance text presentation (font styling, alignment, decoration).
+7. Recognize and style different link states (`:hover`, `:visited`, `:active`) to improve user experience.
+
+---
+
+## 4.9 Lab Exercise 4
+
+In this exercise, you will build a functional webpage that integrates various HTML5 and CSS concepts. You will use semantic HTML elements, embed media, and apply CSS styling to create a visually appealing webpage design.
+
+This lab reinforces modern web development practices and helps you develop skills to create professional, user-friendly webpages.
+
+---
+
+## 4.9.1 Building a Responsive Webpage with HTML5 and CSS
+
+### Instructions
+
+---
+
+### 1. Create the HTML File
+
+- Name the file **`lab4.html`**.
+
+---
+
+### 2. Define the Structure
+
+Use semantic HTML5 elements such as:
+
+- `<header>`
+- `<nav>`
+- `<section>`
+- `<article>`
+- `<footer>`
+
+Additional tasks:
+
+- Create a navigation bar using an unordered list `<ul>`.
+- Include links to different sections of the page.
+
+---
+
+### 3. Insert Media
+
+- Embed a video using the `<video>` tag.
+- Add a caption or short description below the video.
+- Ensure the video is sized and positioned properly within your layout.
+
+---
+
+### 4. Apply CSS Styling
+
+Use both **internal CSS** and **external CSS**.
+
+You must:
+
+- Apply text decoration to headings and links (`underline`, `overline`, `line-through`, etc.).
+- Style link states:
+  - `:hover`
+  - `:visited`
+  - `:active`
+- Create a clean, responsive layout using CSS properties.
+
+---
+
+### 5. Add Interactive Elements
+
+Add a form on your webpage with the following input fields:
+
+- Name (Text input)
+- Email (Text input)
+- Gender (Radio buttons)
+- Favourite Hobbies (Checkboxes)
+- Submit Button
+
+Then:
+
+- Style the form and its elements using CSS to improve appearance and usability.
+
+---
+
+## Final Output
+
+After completing this lab, you should have:
+
+- A fully structured webpage using semantic HTML
+- An embedded and properly styled video
+- A navigation bar styled with CSS
+- Styled text and link states
+- A clean and user-friendly form
+- A complete example of a responsive HTML5 + CSS webpage
+
+---
+
+# Lab Module 5 Cascading Style Sheets (CSS) Part 2
+
+## Lab Overview
+
+This lab module covers fundamental CSS styling techniques and their implementation in web design. The exercises focus on different methods of applying CSS and creating common web components.
+
+---
+
+## Topics Covered
+
+### 5.3 Inline CSS
+Learn how to apply CSS styles directly within HTML elements using the `style` attribute.
+
+**Example:**
+```html
+<p style="color: blue; font-size: 16px;">This is inline CSS</p>
+```
+
+---
+
+### 5.4 Internal CSS
+Implement CSS styles within the `<style>` tag in the HTML document's `<head>` section.
+
+**Example:**
+```html
+<head>
+  <style>
+    p {
+      color: blue;
+      font-size: 16px;
+    }
+  </style>
+</head>
+```
+
+---
+
+### 5.5 External CSS
+Link external CSS files to HTML documents for better organization and reusability.
+
+**Example:**
+```html
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+---
+
+### 5.6 Link
+Understanding how to properly link CSS files and other resources to HTML documents.
+
+---
+
+### 5.7 Background Image
+Apply and style background images using CSS properties.
+
+**Properties covered:**
+- `background-image`
+- `background-size`
+- `background-position`
+- `background-repeat`
+
+---
+
+### 5.8 CSS Table
+Style HTML tables using CSS for improved visual presentation.
+
+**Common properties:**
+- `border`
+- `border-collapse`
+- `padding`
+- `text-align`
+- `background-color`
+
+**Example:**
+```css
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+```
+
+---
+
+### 5.9 Navigation Bar
+Create responsive and styled navigation bars using HTML and CSS.
+
+**Components:**
+1. Horizontal navigation menu
+2. Styled links with hover effects
+
+**Example structure:**
+```html
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+
+---
+
+## Lab Exercise
+
+The lab includes practical exercises that combine HTML and CSS to create functional web components. Students are required to:
+
+1. Write HTML structure
+2. Apply CSS styling using different methods
+3. Create working examples of tables and navigation bars
+4. Generate output that matches the expected design
+
+---
+
+## Files Structure
+
+```
+Lab5/
+├── umt.html          # Main HTML file
+├── umt.css          # External CSS file
+├── images/            # Folder for background images
+```
+
+---
+
+## Learning Objectives
+
+By completing this lab, students will be able to:
+
+- Understand the three methods of applying CSS (Inline, Internal, External)
+- Create and style HTML tables effectively
+- Design navigation bars with proper styling
+- Use background images in web layouts
+- Apply CSS best practices for maintainable code
+
+---
+
+## Notes
+
+- Always validate your HTML and CSS code
+- Test your designs across different browsers
+- Keep CSS organized and well-commented
+- Use external CSS for larger projects
+- Maintain consistent naming conventions
+
+---
+# Lab 6 – Introduction to JavaScript & Quiz Application
+
+This lab covers the fundamentals of **JavaScript** and guides you to create a **dynamic quiz application**.  
+By completing this lab, students will understand how to use JavaScript to add interactivity to web pages and practice building a small project.
+
+---
+
+## 6.1 Introduction to JavaScript
+
+JavaScript is a versatile programming language widely used to create **dynamic** and **interactive** content on websites. Along with **HTML** and **CSS**, it forms the core technologies of modern web development, enabling developers to build engaging and responsive user experiences.
+
+### 🌟 Key Features of JavaScript
+
+1. **Client-Side Execution**  
+   Runs directly in the user's web browser without server interaction, allowing **real-time updates** and **interactive content**.
+
+2. **Dynamic and Interactive Content**  
+   JavaScript can:
+   - Update webpage content instantly  
+   - Validate form input  
+   - Create animations  
+   - Control multimedia elements  
+   —all **without reloading the page**.
+
+3. **Cross-Platform Compatibility**  
+   Works across all major browsers: Chrome, Firefox, Edge, Safari, etc.
+
+4. **Extensibility**  
+   Can be extended using:
+   - **Libraries** (e.g., jQuery)  
+   - **Frameworks** (e.g., React, Angular, Vue.js)  
+
+---
+
+### 🛠️ Basic Uses of JavaScript
+
+1. **Event Handling** – Responding to user actions (clicks, keystrokes, mouse movements).  
+2. **Manipulating HTML and CSS** – Dynamically changing structure, content, or style of a webpage.  
+3. **Form Validation** – Ensuring input accuracy before submission.  
+4. **Creating Animations** – Enhancing visual appeal with smooth transitions and effects.  
+
+---
+
+### 📝 Using JavaScript in HTML
+
+Insert JavaScript between `<script>` and `</script>` tags:
+
+```html
+<script>
+  // Your JavaScript code here
+</script>
+# 📘 Quiz Application – Lab Exercise 6
+
+A simple, interactive quiz web application built using **HTML**, **CSS**, and **JavaScript**.  
+This project demonstrates essential web development skills such as DOM manipulation, timers, styling, and dynamic question rendering.
+
+---
+
+## 🎯 Features
+
+- ✔️ Multiple-choice questions  
+- ✔️ Countdown timer per question  
+- ✔️ Randomized question order  
+- ✔️ Instant feedback (Correct/Incorrect)  
+- ✔️ Final score display  
+- ✔️ Clean and responsive interface  
+
+---
+
+## 🧩 Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+
+---
+
+## 🚀 How to Run
+
+1. Download the project folder.
+2. Ensure it contains:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+3. Open **index.html** in your browser.
+4. Begin the quiz and follow the prompts.
+5. View your final score at the end.
+
+---
+
+## 🧠 JavaScript Functions Overview
+
+### `startQuiz()`
+Initializes quiz, shuffles questions, displays the first question, starts timer.
+
+### `shuffleQuestions()`
+Randomizes the array of quiz questions.
+
+### `startTimer()`
+Starts countdown timer for each question.
+
+### `displayQuestion()`
+Loads current question and its options on screen.
+
+### `checkAnswer()`
+Checks user's selected answer and updates score.
+
+### `nextQuestion()`
+Loads the next question and restarts timer.
+
+---
+
+## 📦 Submission Instructions
+
+- Ensure the project includes:
+  - `index.html`
+  - `style.css`
+  - `script.js`
+- Zip the project folder.
+- Submit the **.zip file** as required.
+
+---
+
+## 📝 License
+
+This project is for educational use under **Lab Exercise 6**.  
+You may modify or extend it for learning purposes.
+
+
